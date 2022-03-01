@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>浅拷贝和深拷贝 | 前端</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="web前端相关知识点">
+    
+    <link rel="preload" href="/assets/css/0.styles.35bcedcf.css" as="style"><link rel="preload" href="/assets/js/app.d6bd0c58.js" as="script"><link rel="preload" href="/assets/js/2.bf233ac2.js" as="script"><link rel="preload" href="/assets/js/12.cb200808.js" as="script"><link rel="prefetch" href="/assets/js/10.1d7e85e0.js"><link rel="prefetch" href="/assets/js/11.e2517c37.js"><link rel="prefetch" href="/assets/js/13.19591eec.js"><link rel="prefetch" href="/assets/js/14.17aa5b7e.js"><link rel="prefetch" href="/assets/js/15.8fd6f703.js"><link rel="prefetch" href="/assets/js/16.9fa5e63f.js"><link rel="prefetch" href="/assets/js/17.4f2a9b66.js"><link rel="prefetch" href="/assets/js/18.954fc0fa.js"><link rel="prefetch" href="/assets/js/19.dca59d43.js"><link rel="prefetch" href="/assets/js/3.bbe5046a.js"><link rel="prefetch" href="/assets/js/4.ed8f2e2d.js"><link rel="prefetch" href="/assets/js/5.32dde0b2.js"><link rel="prefetch" href="/assets/js/6.c7b54f12.js"><link rel="prefetch" href="/assets/js/7.de7cacf3.js"><link rel="prefetch" href="/assets/js/8.3599f72e.js"><link rel="prefetch" href="/assets/js/9.e04ad508.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.35bcedcf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">前端</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="浅拷贝和深拷贝"><a href="#浅拷贝和深拷贝" class="header-anchor">#</a> 浅拷贝和深拷贝</h1> <p>浅拷贝指的是创建新的数据时这个数据有着原始数据属性值的一份精确拷贝，浅拷贝只复制指向某个对象的指针，而不复制对象本身</p> <p>如果属性是基本类型，拷贝的就是基本类型的值，如果属性是引用类型，拷贝的就是内存地址</p> <p>存在浅拷贝的现象，<code>Object.assign</code> <code>Array.prototype.slice</code> <code>Array.prototype.concat</code> 拓展运算符实现的复制</p> <p>深拷贝则是开辟一个新的栈，两个对象属性完全相同，但对应两个不同的地址，修改一个对象的属性时不影响另一个属性</p> <p>存在深拷贝的现象，<code>_.cloneDeep</code> <code>jQuery.extend</code> <code>JSON.stringify</code> 递归循环</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d6bd0c58.js" defer></script><script src="/assets/js/2.bf233ac2.js" defer></script><script src="/assets/js/12.cb200808.js" defer></script>
+  </body>
+</html>

@@ -65,3 +65,26 @@
 ### relace
 
 接收两个参数（匹配的内容，要替换的元素或函数）
+
+---
+
+给定一个只包含'('，')'，'['，']'，'{'，'}'的字符串，判断字符串是否有效，满足如下条件：
+
+- 左括号必须用相同类型的右括号闭合；
+- 左括号必须以正确的顺序闭合。
+- 空字符串可以被认为是有效字符串。
+
+```js
+const isVaild = str => {
+  let arr = []
+  str = str.split('')
+  for (const i of atr) {
+    if (i === '') continue
+    else if (i === '(') arr.push(')')
+    else if (i === '[') arr.push(']')
+    else if (i === '{') arr.push('}')
+    else if (arr.length === 0 || arr.pop() !== i) return false
+  }
+  return arr.length === 0 ? true : false
+}
+```
