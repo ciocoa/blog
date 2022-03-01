@@ -1,14 +1,10 @@
 # JavaScript
 
-- [数组](array.md)
-- [字符串](string.md)
-- [浅拷贝和深拷贝](copy.md)
-- [事件、事件传播](event.md)
-- [异步和单线程](event_loop.md)
-- [作用域和闭包](closure.md)
-- [原型和原型链](prototype.md)
-- [AJAX](ajax.md)
-- [this](this.md)
-- [BOM](bom.md)
-- [DOM](dom.md)
-- [递归](recursion.md)
+## 数据类型
+
+- 基本类型：number、string、boolean、null、undefined、symbol、bigint
+- 引用类型：array、object、function
+
+基本类型数据保存在栈内存中；引用类型数据保存在堆内存中，存在栈中的是一个指向堆内存中实际对象的引用
+
+`Undefined`类型只有一个值，即特殊值`undefined`。当使用`var`或`let`声明了变量但没有初始化时，就相当于给变量默认赋值`undefined`。而`Null`类型同样只有一个值，即特殊值`null`。表示一个空对象指针，因此`typeof null`会返回一个`object`。

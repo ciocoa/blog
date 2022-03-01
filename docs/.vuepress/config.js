@@ -1,10 +1,13 @@
 module.exports = {
+  lang: 'zh-CN',
   title: 'WEB前端',
   description: 'WEB前端相关知识点面试点',
-  head: [['link', { ref: 'icon', href: 'logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   base: '/web/',
+  theme: '@vuepress/theme-default',
   themeConfig: {
-    nav: [
+    logo: 'logo.png',
+    navbar: [
       {
         text: 'JavaScript',
         link: '/javascript/'
@@ -17,8 +20,8 @@ module.exports = {
     sidebar: {
       '/javascript/': [
         {
-          title: 'JavaScript',
-          collapsable: false,
+          text: 'JavaScript',
+          collapsible: false,
           children: [
             'string',
             'array',
@@ -37,5 +40,17 @@ module.exports = {
         }
       ]
     }
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: 'Search'
+          }
+        }
+      }
+    ]
+  ]
 }

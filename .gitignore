@@ -1,9 +1,12 @@
-.history
-.idea
+node_modules
 .DS_Store
+.history
+.temp
+.cache
+.idea
 *.local
 dist
 dist-ssr
-node_modules
 yarn.lock
-test
+package-lock.json
+pnpm-lock.yaml
