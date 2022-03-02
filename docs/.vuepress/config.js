@@ -2,27 +2,23 @@ module.exports = {
   lang: 'zh-CN',
   title: 'WEB前端',
   description: 'WEB前端相关知识点面试点',
-  head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/web/logo.png' }]],
   base: '/web/',
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: 'logo.png',
     navbar: [
-      {
-        text: 'JavaScript',
-        link: '/javascript/'
-      },
-      {
-        text: 'Github',
-        link: 'https://github.com/ciocola/web'
-      }
+      { text: 'HTML', link: '/html/' },
+      { text: 'CSS', link: '/css/' },
+      { text: 'JS', link: '/js/' },
+      { text: 'VUE', link: '/vue/' },
+      { text: 'Github', link: 'https://github.com/ciocola/web' }
     ],
     sidebar: {
-      '/javascript/': [
+      '/js/': [
         {
-          text: 'JavaScript',
-          collapsible: false,
           children: [
+            'README.md',
             'string',
             'array',
             'dom&bom',
@@ -37,6 +33,11 @@ module.exports = {
             'debounce_throttle',
             'single_sign'
           ]
+        }
+      ],
+      '/vue/': [
+        {
+          children: ['README.md', 'v_if', 'lifecycle', 'model', 'communication', 'nexttick', 'mixin', 'slot']
         }
       ]
     }

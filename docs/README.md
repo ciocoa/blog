@@ -8,6 +8,6 @@
 
 - [CSS](css/README.md)
 
-- [JS](javascript/README.md)
+- [JS](js/README.md)
 
 - [VUE](vue/README.md)
