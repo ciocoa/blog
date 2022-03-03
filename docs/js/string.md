@@ -54,7 +54,7 @@
 const isVaild = str => {
   let arr = []
   str = str.split('')
-  for (const i of atr) {
+  for (const i of str) {
     if (i === '') continue
     else if (i === '(') arr.push(')')
     else if (i === '[') arr.push(']')

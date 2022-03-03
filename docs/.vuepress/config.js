@@ -37,7 +37,18 @@ module.exports = {
       ],
       '/vue/': [
         {
-          children: ['README.md', 'v_if', 'lifecycle', 'model', 'communication', 'nexttick', 'mixin', 'slot']
+          children: [
+            'README.md',
+            'v_if',
+            'lifecycle',
+            'model',
+            'communication',
+            'nexttick',
+            'mixin',
+            'slot',
+            'vnode',
+            'cors'
+          ]
         }
       ]
     }
