@@ -1,12 +1,8 @@
 {
-  "name": "web",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "web前端面试点",
+  "description": "My Blog",
   "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
@@ -14,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ciocola/web.git"
+    "url": "git+https://github.com/ciocola/blog.git"
   },
   "keywords": [
     "web",
@@ -23,14 +19,14 @@
     "js",
     "vue"
   ],
-  "author": "ciocola",
+  "author": "cicocla",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ciocola/web/issues"
+    "url": "https://github.com/ciocola/blog/issues"
   },
-  "homepage": "https://github.com/ciocola/web#readme",
+  "homepage": "https://github.com/ciocola/blog#readme",
   "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.35",
-    "vuepress": "^2.0.0-beta.35"
+    "vuepress": "^2.0.0-beta.36",
+    "vuepress-theme-gungnir": "^2.0.0-alpha.16"
   }
 }

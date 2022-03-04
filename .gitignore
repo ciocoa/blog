@@ -1,12 +1,6 @@
 node_modules
-.DS_Store
-.history
 .temp
 .cache
-.idea
-*.local
+.DS_Store
 dist
-dist-ssr
-yarn.lock
 package-lock.json
-pnpm-lock.yaml

@@ -15,6 +15,6 @@ git commit -m 'deploy'
 
 git branch -M main
 
-git push -f git@github.com:ciocola/web.git main:gh-pages
+git push -f git@github.com:ciocola/blog.git main:gh-pages
 
 cd -
