@@ -18,8 +18,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     strategy:
-        matrix:
-          node: ['lts/gallium']
+      matrix:
+        node: ['lts/gallium']
     steps:
       - name: Checkout
         uses: actions/checkout@main
@@ -32,20 +32,20 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@main
         with:
-          node-version:  ${{ matrix.node }}
+          node-version: ${{ matrix.node }}
       - name: Install dependencies
         run: npm i
       - name: Build VuePress
         run: npm run build
       - name: Deploy to Pages
         env:
-         TZ: Asia/Shanghai
+          TZ: Asia/Shanghai
         run: |
-         cd docs/.vuepress/dist
-         git config --global init.defaultBranch master
-         git init
-         git config user.name "ciocola"
-         git config user.email "${{ secrets.GIT_EMAIL }}"
-         git add .
-         git commit -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date + "%Y-%m-%d %T %Z")"
-         git push -f https://ciocola:${{ secrets.ACCESS_TOKEN }}@github.com/ciocola/blog.git master:gh-pages
+          cd docs/.vuepress/dist
+          git config --global init.defaultBranch master
+          git init
+          git config user.name "ciocola"
+          git config user.email "${{ secrets.GIT_EMAIL }}"
+          git add .
+          git commit -m "Deploying to gh-pages from @ $GITHUB_SHA in $(date + "%Y-%m-%d %T %Z")"
+          git push -f https://ciocola:${{ secrets.ACCESS_TOKEN }}@github.com/ciocola/blog.git master:gh-pages

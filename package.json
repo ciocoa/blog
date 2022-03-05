@@ -4,9 +4,9 @@
   "description": "My Blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "serve": "sh deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,8 @@
   "homepage": "https://github.com/ciocola/blog#readme",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.36",
+    "vuepress-plugin-live2d-plus": "^0.1.0",
+    "vuepress-plugin-player": "^1.1.7",
     "vuepress-theme-gungnir": "^2.0.0-alpha.16"
   }
 }

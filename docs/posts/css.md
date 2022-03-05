@@ -9,7 +9,7 @@ headerImage: /img/posts/css/header.jpg
 headerMask: rgb(67, 65, 47, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
-  - HTML, CSS
+  - CSS
 ---
 
 # CSS
