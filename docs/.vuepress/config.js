@@ -3,8 +3,13 @@ module.exports = {
   description: '',
   base: '/blog/',
   head: [
-    ['link', { rel: 'icon', href: `favicon.ico` }],
-    ['meta', { name: 'application-name', content: 'Blog' }]
+    ['link', { rel: 'icon', href: `/favicon.png` }],
+    ['link', { rel: 'apple-touch-icon', href: `/favicon.png` }],
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['meta', { name: 'application-name', content: 'Ciocola Blog' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Ciocola Blog' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }]
   ],
   theme: 'gungnir',
   themeConfig: {
@@ -19,7 +24,7 @@ module.exports = {
       sns: {
         github: 'Ciocola',
         email: 'acgsx@live.com',
-        rss: '/rss.xml',
+        rss: '/blog/rss.xml',
         bilibili: { icon: 'ri-bilibili-line', link: 'https://www.bilibili.com/' }
       }
     },
@@ -35,7 +40,7 @@ module.exports = {
       ga: 'G-P6TCP1HV59',
       ba: '7bfe3a1231089afb293ccbe7614db836',
       rss: {
-        siteURL: 'https://ciocola.github.io/blog',
+        siteURL: 'https://ciocola.github.io/blog/',
         copyright: 'Ciocola 2022'
       }
     },
@@ -114,16 +119,16 @@ module.exports = {
     [
       'player',
       {
-        songIds: ['29723011', '1887893189', '1421069053'],
-        playlist: '4878926215',
+        songIds: ['29723011'],
+        playlist: '2829816518',
         showPlaylist: true,
         disabledNetEaseMusic: false,
-        serverUrl: 'https://netease-cloud-music-api-teal-psi.vercel.app/',
+        serverUrl: 'https://netease-cloud-music-api-ebon-nine.vercel.app/',
         localSongs: {
           coverUrl: 'https://ooszy.cco.vin/img/blog-public/avatar.jpg',
           songs: [
             {
-              path: '/sound/Goodbye Happiness - 宇多田ヒカル.mp3',
+              path: 'http://59.110.45.28/m/api/url/yqd/id/59f3vn9em5NHWLD-AUSSL_XBEqaIkOgU3LMCvEvAU-ZXWSw/format/128000',
               songName: 'Goodbye Happiness',
               cover: 'https://p4.music.126.net/Pqn7Sq2kzm2CyIRCVMdZgw==/18298072510006679.jpg'
             }

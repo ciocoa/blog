@@ -4,9 +4,10 @@
   "description": "My Blog",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "serve": "sh deploy.sh"
+    "clear": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
+    "reset": "npm run clear && rm -rf node_modules package-lock.json",
+    "dev": "vuepress dev docs --clean-cache",
+    "build": "vuepress build docs --clean-cache"
   },
   "repository": {
     "type": "git",
