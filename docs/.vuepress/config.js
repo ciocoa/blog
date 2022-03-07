@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Blog',
+  title: 'Ciocola Blog',
   description: '',
   head: [
     ['link', { rel: 'icon', href: `/favicon.ico` }],
@@ -12,7 +12,7 @@ module.exports = {
   ],
   theme: 'gungnir',
   themeConfig: {
-    repo: 'ciocola.github.io/blog/',
+    repo: 'https://ciocola-blog.vercel.app/',
     docsDir: 'docs',
     docsBranch: 'main',
     hitokoto: 'https://v1.hitokoto.cn?c=d&c=i',
@@ -36,10 +36,10 @@ module.exports = {
         categoryId: 'DIC_kwDOG6qVr84CN9bR'
       },
       mdPlus: { all: true },
-      ga: 'G-P6TCP1HV59',
-      ba: '7bfe3a1231089afb293ccbe7614db836',
+      ga: 'G-HTZMX5P8NC',
+      ba: '7d3a5e9374ece3e1ba65c8538b9ef500',
       rss: {
-        siteURL: 'https://ciocola.github.io/blog/',
+        siteURL: 'https://ciocola-blog.vercel.app/',
         copyright: 'Ciocola 2022'
       }
     },
@@ -99,7 +99,7 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/ciocola',
+        link: 'https://github.com/ciocola/blog',
         icon: 'oi-rocket'
       }
     ],
@@ -140,7 +140,7 @@ module.exports = {
       {
         enable: true,
         model: {
-          url: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json'
+          url: 'https://raw.githubusercontents.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json'
         },
         display: {
           position: 'right',
