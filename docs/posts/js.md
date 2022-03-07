@@ -258,9 +258,8 @@ JS 中所有任务可以分为
 - 接收并处理服务端响应的数据结果
 - 将处理结果更新到`HTML`页面中
 
-封装一个简单的`AJAX`请求
-
 ```js
+// 封装一个简单的`AJAX`请求
 function ajax(options) {
   const xhr = new XMLHttpRequest()
   options = options || {}
@@ -329,9 +328,8 @@ ajsx({
 
 递归需要有边界条件、递归前进阶段和递归返回阶段. 当边界条件不满足时递归前进; 当条件满足时递归返回
 
-计算 x 的 y 次方
-
 ```js
+// 计算 x 的 y 次方
 function pow(x, y) {
   let res = 1
   for (let i = 0; i < y; i++) {

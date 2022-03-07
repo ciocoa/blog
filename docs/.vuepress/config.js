@@ -1,14 +1,13 @@
 module.exports = {
   title: 'Blog',
   description: '',
-  base: '/blog/',
   head: [
-    ['link', { rel: 'icon', href: `/favicon.png` }],
-    ['link', { rel: 'apple-touch-icon', href: `/favicon.png` }],
+    ['link', { rel: 'icon', href: `/favicon.ico` }],
+    ['link', { rel: 'apple-touch-icon', href: `/favicon.ico` }],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
     ['meta', { name: 'application-name', content: 'Ciocola Blog' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'Ciocola Blog' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'white' }],
     ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }]
   ],
   theme: 'gungnir',
@@ -23,8 +22,8 @@ module.exports = {
       description: 'いつか、私がヒトじゃなくなっても',
       sns: {
         github: 'Ciocola',
-        email: 'acgsx@live.com',
-        rss: '/blog/rss.xml',
+        email: 'ciocoae@gmail.com',
+        rss: '/rss.xml',
         bilibili: { icon: 'ri-bilibili-line', link: 'https://www.bilibili.com/' }
       }
     },
@@ -46,23 +45,23 @@ module.exports = {
     },
     homeHeaderImages: [
       {
-        path: '/img/home/1.jpg',
+        path: '/img/home/banner1.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/2.jpg',
+        path: '/img/home/banner2.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/3.jpg',
+        path: '/img/home/banner3.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/4.jpg',
+        path: '/img/home/banner4.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/5.jpg',
+        path: '/img/home/banner5.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       }
     ],
@@ -119,13 +118,13 @@ module.exports = {
     [
       'player',
       {
-        songIds: ['29723011'],
+        songIds: ['1909014602', '1410370185', '1334259177', '525238081'],
         playlist: '2829816518',
-        showPlaylist: true,
+        showPlaylist: false,
         disabledNetEaseMusic: false,
-        serverUrl: 'https://netease-cloud-music-api-ebon-nine.vercel.app/',
+        serverUrl: 'https://cloud-music-api-teal.vercel.app/',
         localSongs: {
-          coverUrl: 'https://ooszy.cco.vin/img/blog-public/avatar.jpg',
+          coverUrl: '',
           songs: [
             {
               path: 'http://59.110.45.28/m/api/url/yqd/id/59f3vn9em5NHWLD-AUSSL_XBEqaIkOgU3LMCvEvAU-ZXWSw/format/128000',
