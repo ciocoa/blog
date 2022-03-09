@@ -251,4 +251,6 @@ Vue 在更新 DOM 时是异步执行的, 数据发生变化时 Vue 将开启一�
 
 **Token**: 返回双 token, 一个为访问令牌; 另一个为刷新令牌, 用于访问令牌失效后自动重新获取新的访问令牌
 
-**keep-alive**: Vue 内部将 DOM 节点抽象成了一个个的`VNode`节点, `keep-alive`组件的缓存也是基于`VNode`节点的而不是直接存储`DOM`结构中. 它将满足条件`pruneCache`的组件在`cache`对象中缓存起来, 在需要时再将`vnode`节点从`cache`对象中取出并重新渲染
+**keep-alive**: 是 Vue 的内置组件, Vue 内部将 DOM 节点抽象成了一个个的`VNode`节点, `keep-alive`组件的缓存也是基于`VNode`节点的而不是直接存储`DOM`结构中. 它将满足条件`pruneCache`的组件在`cache`对象中缓存起来, 在需要时再将`vnode`节点从`cache`对象中取出并重新渲染
+
+父组件监听子组件的生命周期: 1.使用父组件`@mounted `, 子组件`this.$emit` 2.@hook:mounted
