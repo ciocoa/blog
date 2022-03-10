@@ -56,6 +56,8 @@ CSS 中`box-sizing`属性定义了浏览器引擎该如何解析:
 
 页面的设计与开发根据用户行为及设备环境进行相应的响应与调整, 可以通过媒体查询(`@media`)检测不同设备屏幕尺寸做处理, 百分比、vw/vh、rem
 
+浮动、定位、flex、grid、栅格系统
+
 ### Flex 布局
 
 弹性盒布局, 采用`flex`布局的元素称为`flex`容器`container`; 子元素自动成为容器成员, 称为`flex`项目`item`. 容器默认存在两条轴, 水平的主轴和垂直的交叉轴
@@ -112,7 +114,7 @@ CSS 中`box-sizing`属性定义了浏览器引擎该如何解析:
 - 给父级 div 定义`height`属性
 - 最后一个浮动元素后添加空 div, 并添加`clear:both`样式
 - 包含浮动元素的父标签添加`overflow: hidden` 或 `overflow: auto`
-- 使用:after 伪元素, IE6-7 使用 `zoom:1`触发 hasLayout
+- 使用:after 伪元素, IE6-7 使用 `*zoom:1`触发 hasLayout
 
 ```css
 .clearfix::after {
@@ -166,3 +168,53 @@ div {
   - skew：倾斜
 
 - `animation` 自定义动画: 设置动画属性, 包含 6 个属性, `@keyframes`定义关键帧
+
+## 其他
+
+**实现垂直居中:**
+
+- 使用定位
+
+```css
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.center {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+```
+
+- 使用 CSS3 动画, 高宽未知也能实现
+
+```css
+.container {
+  position: relative;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
+- 使用 flex
+
+```css
+/* 使用flex */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+}
+```
