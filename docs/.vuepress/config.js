@@ -2,7 +2,14 @@ module.exports = {
   title: 'Ciocola Blog',
   lang: 'zh-CN',
   description: 'Welcome to Ciocola`s blog',
-  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'apple-touch-icon', href: `/favicon.ico` }],
+    ['meta', { name: 'application-name', content: 'Ciocola Blog' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Ciocola Blog' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: '#FFFFFF' }]
+  ],
   theme: 'gungnir',
   themeConfig: {
     repo: 'https://ciocola-blog.vercel.app/',
@@ -11,12 +18,12 @@ module.exports = {
     hitokoto: 'https://v1.hitokoto.cn?c=d&c=i',
     personalInfo: {
       name: 'Ciocola',
-      avatar: 'avatar.jpg',
+      avatar: '/avatar.jpg',
       description: 'いつか、私がヒトじゃなくなっても',
       sns: {
         github: 'Ciocola',
         email: 'ciocoae@gmail.com',
-        rss: 'rss.xml',
+        rss: '/rss.xml',
         bilibili: { icon: 'ri-bilibili-line', link: 'https://www.bilibili.com/' }
       }
     },
