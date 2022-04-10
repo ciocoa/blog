@@ -5,7 +5,7 @@ subtitle: JS 重点知识、高频面试点总结 下
 author: Ciocola
 date: 2022-02-28
 useHeaderImage: true
-headerImage: /img/posts/js2/header.jpg
+headerImage: /images/posts/js2/header.jpg
 headerMask: rgb(67, 65, 47, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:

@@ -5,7 +5,7 @@ subtitle: Vue.js 重点知识、高频面试点总结
 author: Ciocola
 date: 2022-03-05
 useHeaderImage: true
-headerImage: /img/posts/vue/header.jpg
+headerImage: /images/posts/vue/header.jpg
 headerMask: rgb(67, 65, 47, .2)
 permalinkPattern: /post/:year/:month/:day/:slug/
 tags:

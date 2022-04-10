@@ -1,15 +1,8 @@
 module.exports = {
   title: 'Ciocola Blog',
-  description: '',
-  head: [
-    ['link', { rel: 'icon', href: `/favicon.ico` }],
-    ['link', { rel: 'apple-touch-icon', href: `/favicon.ico` }],
-    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-    ['meta', { name: 'application-name', content: 'Ciocola Blog' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'Ciocola Blog' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'white' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }]
-  ],
+  lang: 'zh-CN',
+  description: 'Welcome to Ciocola`s blog',
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   theme: 'gungnir',
   themeConfig: {
     repo: 'https://ciocola-blog.vercel.app/',
@@ -18,12 +11,12 @@ module.exports = {
     hitokoto: 'https://v1.hitokoto.cn?c=d&c=i',
     personalInfo: {
       name: 'Ciocola',
-      avatar: '/img/avatar.png',
+      avatar: 'avatar.jpg',
       description: 'いつか、私がヒトじゃなくなっても',
       sns: {
         github: 'Ciocola',
         email: 'ciocoae@gmail.com',
-        rss: '/rss.xml',
+        rss: 'rss.xml',
         bilibili: { icon: 'ri-bilibili-line', link: 'https://www.bilibili.com/' }
       }
     },
@@ -45,23 +38,23 @@ module.exports = {
     },
     homeHeaderImages: [
       {
-        path: '/img/home/banner1.jpg',
+        path: '/images/home/banner1.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/banner2.jpg',
+        path: '/images/home/banner2.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/banner3.jpg',
+        path: '/images/home/banner3.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/banner4.jpg',
+        path: '/images/home/banner4.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       },
       {
-        path: '/img/home/banner5.jpg',
+        path: '/images/home/banner5.jpg',
         mask: 'rgba(0, 0, 0, .3)'
       }
     ],
@@ -69,7 +62,7 @@ module.exports = {
       tags: {
         subtitle: 'Black Sheep Wall',
         bgImage: {
-          path: '/img/pages/tags.jpg',
+          path: '/images/pages/tags.jpg',
           mask: 'rgba(211, 136, 37, .5)'
         }
       }
@@ -118,8 +111,8 @@ module.exports = {
     [
       'player',
       {
-        songIds: ['1909014602', '1410370185', '1334259177', '525238081'],
-        playlist: '2829816518',
+        songIds: ['1410370185', '1334259177'],
+        playlist: '11641012',
         showPlaylist: false,
         disabledNetEaseMusic: false,
         serverUrl: 'https://cloud-music-api-teal.vercel.app/',
@@ -127,9 +120,9 @@ module.exports = {
           coverUrl: '',
           songs: [
             {
-              path: 'http://59.110.45.28/m/api/url/yqd/id/59f3vn9em5NHWLD-AUSSL_XBEqaIkOgU3LMCvEvAU-ZXWSw/format/128000',
+              path: '/music/Goodbye Happiness - 宇多田ヒカル.mp3',
               songName: 'Goodbye Happiness',
-              cover: 'https://p4.music.126.net/Pqn7Sq2kzm2CyIRCVMdZgw==/18298072510006679.jpg'
+              cover: '/music/Goodbye Happiness.jpg'
             }
           ]
         }
@@ -140,20 +133,20 @@ module.exports = {
       {
         enable: true,
         model: {
-          url: 'https://raw.githubusercontents.com/iCharlesZ/vscode-live2d-models/master/model-library/hibiki/hibiki.model.json'
+          url: '/live2d/ninti/model.json'
         },
         display: {
           position: 'right',
-          width: '135px',
-          height: '300px',
-          xOffset: '65px',
-          yOffset: '10px'
+          width: '220px',
+          height: '400px',
+          xOffset: '0px',
+          yOffset: '0px'
         },
         mobile: {
           show: false
         },
         react: {
-          opacity: 0.8
+          opacity: 1
         }
       }
     ]

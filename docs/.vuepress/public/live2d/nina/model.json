@@ -1,0 +1,18 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": ["textures/texture_00.png"],
+  "motions": {
+    "idle": [
+      { "file": "motions/1.mtn" },
+      { "file": "motions/2.mtn" },
+      { "file": "motions/3.mtn" },
+      { "file": "motions/4.mtn" },
+      { "file": "motions/5.mtn" },
+      { "file": "motions/6.mtn" },
+      { "file": "motions/7.mtn" },
+      { "file": "motions/idle.mtn" }
+    ]
+  },
+  "physics": "physics.json"
+}

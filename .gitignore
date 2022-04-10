@@ -28,6 +28,3 @@ dist-ssr
 docs/.vuepress/.temp/
 docs/.vuepress/.cache/
 docs/.vuepress/dist/
-
-# Personal
-test/
