@@ -6,11 +6,11 @@
 
 [![vercel](./docs/.vuepress/public/images/vercel.svg)](https://vercel.com/?utm_source=blog&utm_campaign=oss)
 
-- 基于 [Giscus](https://github.com/giscus/giscus) 实现文章评论功能
+基于 [Giscus](https://github.com/giscus/giscus) 实现文章评论功能
 
-- 基于 [vuepress-plugin-player](https://github.com/vuepress-aurora/vuepress-theme-aurora/tree/master/Aurora-plugin/vuepress-plugin-player) 实现音乐播放功能
+基于 [vuepress-plugin-player](https://github.com/vuepress-aurora/vuepress-theme-aurora/tree/master/Aurora-plugin/vuepress-plugin-player) 实现音乐播放功能
 
-- 基于 [vuepress-plugin-live2d-plus](https://github.com/xinlei3166/vuepress-plugin-live2d-plus) 实现页面 Live2D 效果
+基于 [vuepress-plugin-live2d-plus](https://github.com/xinlei3166/vuepress-plugin-live2d-plus) 实现页面 Live2D 效果
 
 ---
 
