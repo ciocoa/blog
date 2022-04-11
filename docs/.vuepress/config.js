@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Ciocola Blog',
   lang: 'zh-CN',
-  description: 'Welcome to Ciocola`s blog',
+  description: '',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', href: `/favicon.ico` }],
