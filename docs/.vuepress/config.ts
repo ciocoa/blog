@@ -1,10 +1,13 @@
-module.exports = {
+import { defineUserConfig } from 'vuepress'
+import type { GungnirThemeOptions } from 'vuepress-theme-gungnir'
+
+export default defineUserConfig<GungnirThemeOptions>({
   title: 'Ciocola Blog',
   lang: 'zh-CN',
-  description: '',
+  description: 'Welcome to Ciocola`s blog',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'apple-touch-icon', href: `/favicon.ico` }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }],
     ['meta', { name: 'application-name', content: 'Ciocola Blog' }],
     ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'Ciocola Blog' }],
@@ -12,7 +15,8 @@ module.exports = {
   ],
   theme: 'gungnir',
   themeConfig: {
-    repo: 'https://ciocola-blog.vercel.app/',
+    navbarTitle: 'HOME',
+    repo: 'https://ciocola-blog.vercel.app',
     docsDir: 'docs',
     docsBranch: 'main',
     hitokoto: 'https://v1.hitokoto.cn?c=d&c=i',
@@ -22,9 +26,13 @@ module.exports = {
       description: 'いつか、私がヒトじゃなくなっても',
       sns: {
         github: 'Ciocola',
+        linkedin: '',
+        facebook: '',
+        twitter: '',
         email: 'ciocoae@gmail.com',
-        rss: '/rss.xml',
-        bilibili: { icon: 'ri-bilibili-line', link: 'https://www.bilibili.com/' }
+        weibo: '',
+        zhihu: '',
+        rss: '/rss.xml'
       }
     },
     themePlugins: {
@@ -39,7 +47,7 @@ module.exports = {
       ga: 'G-HTZMX5P8NC',
       ba: '7d3a5e9374ece3e1ba65c8538b9ef500',
       rss: {
-        siteURL: 'https://ciocola-blog.vercel.app/',
+        siteURL: 'https://ciocola-blog.vercel.app',
         copyright: 'Ciocola 2022'
       }
     },
@@ -79,23 +87,33 @@ module.exports = {
       {
         text: 'Home',
         link: '/',
-        icon: 'fa-fort-awesome'
+        icon: 'hi-solid-home'
       },
       {
         text: 'Tags',
         link: '/tags/',
-        icon: 'fa-tag'
+        icon: 'hi-solid-tag'
       },
       {
         text: 'Links',
-        icon: 'fa-satellite-dish',
+        icon: 'hi-solid-link',
         children: [
           {
             text: 'VuePress',
-            link: 'https://v2.vuepress.vuejs.org/zh/',
+            link: 'https://v2.vuepress.vuejs.org/zh',
             icon: 'ri-vuejs-line'
+          },
+          {
+            text: 'Gungnir',
+            link: 'https://v2-vuepress-theme-gungnir.vercel.app/',
+            icon: 'fa-cat'
           }
         ]
+      },
+      {
+        text: 'About',
+        link: '/about/',
+        icon: 'fa-paw'
       },
       {
         text: 'Github',
@@ -104,7 +122,7 @@ module.exports = {
       }
     ],
     footer:
-      'Copyright &copy; 2022 <a href="https://github.com/ciocola" target="_blank">Ciocola</a><br />Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> & <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>'
+      'Copyright &copy; 2022 <a href="https://github.com/ciocola" target="_blank">Ciocola</a><br />Powered by <a href="https://github.com/vuepress/vuepress-next" target="_blank">VuePress</a> & <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>'
   },
   markdown: {
     extractHeaders: {
@@ -122,7 +140,7 @@ module.exports = {
         playlist: '11641012',
         showPlaylist: false,
         disabledNetEaseMusic: false,
-        serverUrl: 'https://cloud-music-api-teal.vercel.app/',
+        serverUrl: 'https://cloud-music-api-teal.vercel.app',
         localSongs: {
           coverUrl: '',
           songs: [
@@ -158,4 +176,4 @@ module.exports = {
       }
     ]
   ]
-}
+})
