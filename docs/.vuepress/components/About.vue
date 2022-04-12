@@ -39,9 +39,8 @@ const LINKS = {
   youtube: '',
   instagram: '',
   twitter: '',
-  telegram: ''
+  telegram: 2
 }
-
 const ICONS = {
   github: 'ri-github-fill',
   bilibili: 'ri-bilibili-fill',
@@ -50,7 +49,6 @@ const ICONS = {
   twitter: 'ri-twitter-fill',
   telegram: 'ri-telegram-fill'
 }
-
 const snsIcon = platform => ICONS[platform]
 </script>
 

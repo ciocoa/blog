@@ -1,0 +1,9 @@
+{
+  "include": ["env.d.ts", "docs/.vuepress/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./docs/.vuepress/*"]
+    }
+  }
+}

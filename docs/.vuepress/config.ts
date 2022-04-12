@@ -6,8 +6,8 @@ export default defineUserConfig<GungnirThemeOptions>({
   lang: 'zh-CN',
   description: 'Welcome to Ciocola`s blog',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }],
     ['meta', { name: 'application-name', content: 'Ciocola Blog' }],
     ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'Ciocola Blog' }],

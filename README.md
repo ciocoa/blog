@@ -4,7 +4,7 @@
 
 > 欢迎来到我的博客，一个基于 VuePress 实现的静态博客站点
 
-[![vercel](./docs/.vuepress/public/images/vercel.svg)](https://vercel.com/?utm_source=blog&utm_campaign=oss)
+[![vercel](./docs/.vuepress/public/images/icons/vercel.svg)](https://vercel.com/?utm_source=blog&utm_campaign=oss)
 
 基于 [Giscus](https://github.com/giscus/giscus) 实现文章评论功能
 
