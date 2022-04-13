@@ -39,7 +39,7 @@ const LINKS = {
   youtube: '',
   instagram: '',
   twitter: '',
-  telegram: 2
+  telegram: ''
 }
 const ICONS = {
   github: 'ri-github-fill',
@@ -49,7 +49,7 @@ const ICONS = {
   twitter: 'ri-twitter-fill',
   telegram: 'ri-telegram-fill'
 }
-const snsIcon = platform => ICONS[platform]
+const snsIcon = (platform: string) => ICONS[platform]
 </script>
 
 <style lang="scss">

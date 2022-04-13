@@ -1,9 +1,10 @@
 {
-  "include": ["env.d.ts", "docs/.vuepress/*"],
+  "include": ["env.d.ts", "docs/.vuepress/*", "docs/.vuepress/**/*.vue"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./docs/.vuepress/*"]
-    }
+    },
+    "jsx": "preserve"
   }
 }

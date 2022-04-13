@@ -4,7 +4,7 @@ title: About
 avatar: /avatar.jpg
 name: Ciocola
 subname: Ciocola
-cv:
+cv: ''
 ---
 
 ::: tip

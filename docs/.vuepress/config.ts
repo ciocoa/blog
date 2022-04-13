@@ -140,7 +140,8 @@ export default defineUserConfig<GungnirThemeOptions>({
         playlist: '11641012',
         showPlaylist: false,
         disabledNetEaseMusic: false,
-        serverUrl: 'https://cloud-music-api-teal.vercel.app',
+        disableSpace: false,
+        serverUrl: 'https://apimusic163.vercel.app',
         localSongs: {
           coverUrl: '',
           songs: [
