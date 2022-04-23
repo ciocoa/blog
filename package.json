@@ -4,8 +4,6 @@
   "description": "Cioco's Blog",
   "main": "index.js",
   "scripts": {
-    "clear": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
-    "reset": "npm run clear && rm -rf node_modules package-lock.json",
     "dev": "vuepress dev docs --clean-cache",
     "build": "vuepress build docs --clean-cache"
   },
