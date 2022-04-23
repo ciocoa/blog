@@ -147,8 +147,38 @@ export default defineUserConfig<GungnirThemeOptions>({
           songs: [
             {
               path: '/music/Goodbye Happiness - 宇多田ヒカル.mp3',
-              songName: 'Goodbye Happiness',
-              cover: '/music/Goodbye Happiness.jpg'
+              songName: 'Goodbye Happiness - 宇多田ヒカル',
+              cover: '/music/Goodbye Happiness - 宇多田ヒカル.jpeg'
+            },
+            {
+              path: '/music/怪物 - YOASOBI.mp3',
+              songName: '怪物 - YOASOBI',
+              cover: '/music/怪物 - YOASOBI.jpeg'
+            },
+            {
+              path: '/music/群青 - YOASOBI.mp3',
+              songName: '群青 - YOASOBI',
+              cover: '/music/群青 - YOASOBI.jpeg'
+            },
+            {
+              path: '/music/三原色 - YOASOBI.mp3',
+              songName: '三原色 - YOASOBI',
+              cover: '/music/三原色 - YOASOBI.jpeg'
+            },
+            {
+              path: '/music/夜に駆ける - YOASOBI.mp3',
+              songName: '夜に駆ける - YOASOBI',
+              cover: '/music/夜に駆ける - YOASOBI.jpeg'
+            },
+            {
+              path: '/music/アンコール - YOASOBI.mp3',
+              songName: 'アンコール - YOASOBI',
+              cover: '/music/アンコール - YOASOBI.jpeg'
+            },
+            {
+              path: '/music/たぶん - YOASOBI.mp3',
+              songName: 'たぶん - YOASOBI',
+              cover: '/music/たぶん - YOASOBI.jpeg'
             }
           ]
         }
