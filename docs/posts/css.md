@@ -2,7 +2,7 @@
 layout: Post
 title: CSS
 subtitle: CSS 重点知识、高频面试点总结
-author: Ciocola
+author: Ciocoa
 date: 2022-02-23
 useHeaderImage: true
 headerImage: /images/posts/css/header.jpg

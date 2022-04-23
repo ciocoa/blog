@@ -1,6 +1,6 @@
 <div align='center'>
 
-# Ciocola`s Blog
+# Ciocoa`s Blog
 
 > 欢迎来到我的博客，一个基于 VuePress 实现的静态博客站点
 

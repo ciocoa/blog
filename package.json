@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "My Blog",
+  "description": "Cioco's Blog",
   "main": "index.js",
   "scripts": {
     "clear": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ciocola/blog.git"
+    "url": "git+https://github.com/ciocoa/blog.git"
   },
   "keywords": [
     "blog",
@@ -20,16 +20,16 @@
     "js",
     "vue"
   ],
-  "author": "cicocla",
+  "author": "cicoca",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ciocola/blog/issues"
+    "url": "https://github.com/ciocoa/blog/issues"
   },
-  "homepage": "https://github.com/ciocola/blog#readme",
+  "homepage": "https://github.com/ciocoa/blog#readme",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.39",
     "vuepress-plugin-live2d-plus": "^0.1.0",
     "vuepress-plugin-player": "^1.1.8",
-    "vuepress-theme-gungnir": "^2.0.0-alpha.20"
+    "vuepress-theme-gungnir": "^2.0.0-alpha.21"
   }
 }

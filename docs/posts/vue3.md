@@ -2,7 +2,7 @@
 layout: Post
 title: Vue 3
 subtitle: Vue 3 重点知识、高频面试点总结
-author: Ciocola
+author: Ciocoa
 date: 2022-03-07
 useHeaderImage: true
 headerImage: /images/posts/vue3/header.jpg

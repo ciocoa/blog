@@ -2,7 +2,7 @@
 layout: Post
 title: Vue
 subtitle: Vue.js 重点知识、高频面试点总结
-author: Ciocola
+author: Ciocoa
 date: 2022-03-05
 useHeaderImage: true
 headerImage: /images/posts/vue/header.jpg

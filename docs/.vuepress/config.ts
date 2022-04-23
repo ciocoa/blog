@@ -2,30 +2,30 @@ import { defineUserConfig } from 'vuepress'
 import type { GungnirThemeOptions } from 'vuepress-theme-gungnir'
 
 export default defineUserConfig<GungnirThemeOptions>({
-  title: 'Ciocola Blog',
+  title: "Cioco's Blog",
   lang: 'zh-CN',
-  description: 'Welcome to Ciocola`s blog',
+  description: "Welcome to Cioco's blog",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }],
-    ['meta', { name: 'application-name', content: 'Ciocola Blog' }],
+    ['meta', { name: 'application-name', content: 'Cioco Blog' }],
     ['meta', { name: 'msapplication-TileColor', content: '#377bb5' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'Ciocola Blog' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Cioco Blog' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: '#FFFFFF' }]
   ],
   theme: 'gungnir',
   themeConfig: {
     navbarTitle: 'HOME',
-    repo: 'https://ciocola-blog.vercel.app',
+    repo: 'https://blog.cioco.tk',
     docsDir: 'docs',
     docsBranch: 'main',
     hitokoto: 'https://v1.hitokoto.cn?c=d&c=i',
     personalInfo: {
-      name: 'Ciocola',
+      name: 'Ciocoa',
       avatar: '/avatar.jpg',
       description: 'いつか、私がヒトじゃなくなっても',
       sns: {
-        github: 'Ciocola',
+        github: 'Ciocoa',
         linkedin: '',
         facebook: '',
         twitter: '',
@@ -38,17 +38,17 @@ export default defineUserConfig<GungnirThemeOptions>({
     themePlugins: {
       katex: true,
       giscus: {
-        repo: 'ciocola/blog',
+        repo: 'ciocoa/blog',
         repoId: 'R_kgDOG6qVrw',
         category: 'Announcements',
         categoryId: 'DIC_kwDOG6qVr84CN9bR'
       },
       mdPlus: { all: true },
-      ga: 'G-HTZMX5P8NC',
-      ba: '7d3a5e9374ece3e1ba65c8538b9ef500',
+      ga: 'G-X668NS0BK8',
+      ba: '3c5ae988925dd9380f8c7437acf60bfc',
       rss: {
-        siteURL: 'https://ciocola-blog.vercel.app',
-        copyright: 'Ciocola 2022'
+        siteURL: 'https://blog.cioco.tk/',
+        copyright: 'Ciocoa 2022'
       }
     },
     homeHeaderImages: [
@@ -117,12 +117,12 @@ export default defineUserConfig<GungnirThemeOptions>({
       },
       {
         text: 'Github',
-        link: 'https://github.com/ciocola/blog',
+        link: 'https://github.com/ciocoa/blog',
         icon: 'oi-rocket'
       }
     ],
     footer:
-      'Copyright &copy; 2022 <a href="https://github.com/ciocola" target="_blank">Ciocola</a><br />Powered by <a href="https://github.com/vuepress/vuepress-next" target="_blank">VuePress</a> & <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>'
+      'Copyright &copy; 2022 <a href="https://github.com/ciocoa" target="_blank">Ciocoa</a><br />Powered by <a href="https://github.com/vuepress/vuepress-next" target="_blank">VuePress</a> & <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>'
   },
   markdown: {
     extractHeaders: {
@@ -139,9 +139,9 @@ export default defineUserConfig<GungnirThemeOptions>({
         songIds: ['1410370185', '1334259177'],
         playlist: '11641012',
         showPlaylist: false,
-        disabledNetEaseMusic: false,
+        disabledNetEaseMusic: true,
         disableSpace: false,
-        serverUrl: 'https://apimusic163.vercel.app',
+        serverUrl: 'https://music.api.cioco.tk/',
         localSongs: {
           coverUrl: '',
           songs: [

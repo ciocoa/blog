@@ -2,8 +2,8 @@
 layout: About
 title: About
 avatar: /avatar.jpg
-name: Ciocola
-subname: Ciocola
+name: Ciocoa
+subname: Ciocoa
 cv: ''
 ---
 
@@ -11,10 +11,10 @@ cv: ''
 :tada:
 :::
 
-::: link {la-github-alt} [Ciocola`s Blog](https://github.com/ciocola/blog)
+::: link {la-github-alt} [Ciocoa`s Blog](https://github.com/ciocoa/blog)
 这是一个基于 VuePress2 实现的静态博客
 :::
 
-::: link {la-github-alt} [Quantumult X](https://github.com/ciocola/quanx)
+::: link {la-github-alt} [Quantumult X](https://github.com/ciocoa/quanx)
 iOS 自用 QuantumultX 预配置文件
 :::

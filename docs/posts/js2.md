@@ -2,7 +2,7 @@
 layout: Post
 title: JavaScript
 subtitle: JS 重点知识、高频面试点总结 下
-author: Ciocola
+author: Ciocoa
 date: 2022-02-28
 useHeaderImage: true
 headerImage: /images/posts/js2/header.jpg
